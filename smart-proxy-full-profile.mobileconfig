@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.proxy.http.global</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.smart.proxy.global</string>
+      <key>PayloadUUID</key>
+      <string>12345678-ABCD-1234-ABCD-1234567890AB</string>
+      <key>PayloadDisplayName</key>
+      <string>Smart Proxy Redirection</string>
+      <key>ProxyServer</key>
+      <string>c128-83-113-22-234.ngrok-free.app</string>
+      <key>ProxyServerPort</key>
+      <integer>443</integer>
+      <key>ProxyType</key>
+      <string>Manual</string>
+    </dict>,
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.security.root</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.smart.cert.mitmproxy</string>
+      <key>PayloadUUID</key>
+      <string>22334455-AABB-CCDDEEFF-112233445566</string>
+      <key>PayloadDisplayName</key>
+      <string>mitmproxy CA</string>
+      <key>PayloadContent</key>
+      <data>
+      -----BEGIN CERTIFICATE-----
+MIIDNTCCAh2gAwIBAgIURBAd46Tw/FD88naUrVvLnrWwlX0wDQYJKoZIhvcNAQEL
+BQAwKDESMBAGA1UEAwwJbWl0bXByb3h5MRIwEAYDVQQKDAltaXRtcHJveHkwHhcN
+MjUwNDIxMjA1MDU1WhcNMzUwNDIxMjA1MDU1WjAoMRIwEAYDVQQDDAltaXRtcHJv
+eHkxEjAQBgNVBAoMCW1pdG1wcm94eTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBALO+bxuBBMSHpJbRFbhs9D+EOqhTMBG9YYpPZKQ1Z+t1j54bnj3wrI2Y
+wvbeLKNp2C+bmjQFvE8UlsvWEvVAlcaPNp8sJ4nlzhcPYIfR24wZh7qiVAOdqxbS
+tVRO0FwJwnb5ZYFICKWvNVdoWesQ3IPCq4cWTFObyCdYbsZ+Dl+5hTtU3unfZKVK
+IAZuAmBMqu7+Q7r5K3cDrEyLnk2F01oiPNB7EECHjApRLSGntC2Lg055YvvjjdtB
+KDjtP+QseJ0LYjnNC+BEzADmCRCbheO/mQymMITm+G0CFUsTuREZRkxtUGZO8f7e
+0qu5nZoZSa2esV14fjfwom4DzdmvYTsCAwEAAaNXMFUwDwYDVR0TAQH/BAUwAwEB
+/zATBgNVHSUEDDAKBggrBgEFBQcDATAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYE
+FCoLQWRclbW6rzoF3BlmEox+pv97MA0GCSqGSIb3DQEBCwUAA4IBAQAW310KtBT+
+lix5CDHMMAolt9WirDQIQ3Ax39D6SCj1khb3fs9F0SpFwANzLR2+umUc4EC8wMl5
+/3sEqt3PdMmyLJbrIw20fJZDEQF2qHMlQXR66eHvKoKob6HnQK1wc0CsAKsGU5UV
+tfRePUdgDENDpjgIZdcep4mcP9/mLp3nkXodSzEQ/jUFs6Axorz30ixncJYvpWDf
+baE7iRz9tqGRLxrcHCtQeBEGLZBmUHgR/jCIm6+bDt8FokJmnspFQGObPPKvJYx6
+TJjnISkOid9NjOlY8rs5SSnRJpjo6sHxcn5duapXQI8aBtomUFtrBXFFb4kEVoWt
+7JXRVgbkhEa4
+-----END CERTIFICATE-----
+      </data>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Smart Proxy + Cert</string>
+  <key>PayloadIdentifier</key>
+  <string>com.smart.profile.full</string>
+  <key>PayloadUUID</key>
+  <string>AA11BB22-CC33-DD44-EE55-FF6677889900</string>
+  <key>PayloadOrganization</key>
+  <string>SmartDiscount Test</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
